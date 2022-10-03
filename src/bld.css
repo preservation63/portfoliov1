@@ -1,0 +1,541 @@
+body {
+    height: 100vh;
+  }
+  .container {
+    border-radius: 20px;
+    background: #06060d;
+    width: 550px;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  @media (max-width: 600px) {
+    .container { 
+      width: 490px;
+    }
+  }
+
+  .sky {
+    position: absolute;
+    width: 600px;
+    height: 200px;
+    background: #1597c8;
+    top: 10%;
+  }
+  .s1 {
+    position: absolute;
+    width: 600px;
+    height: 15px;
+    background: #25ccd2;
+    top: 30%;
+  }
+  .s2 {
+    position: absolute;
+    width: 600px;
+    height: 15px;
+    background: #25ccd2;
+    top: 55%;
+  }
+  .s3 {
+    position: absolute;
+    width: 600px;
+    height: 65px;
+    background: #25ccd2;
+    top: 70%;
+  }
+  .b1 {
+    background: #06060d;
+    width: 120px;
+    height: 300px;
+    position: absolute;
+    top: 15%;
+    left: 4%;
+  }
+  .bb1 {
+    background: #001f72;
+    position: absolute;
+    width: 10px;
+    height: 220px;
+    left: 30%;
+  }
+  .bb2 {
+    background: #001f72;
+    position: absolute;
+    width: 10px;
+    height: 240px;
+    left: 45%;
+  }
+  .bb3 {
+    background: #001f72;
+    position: absolute;
+    width: 10px;
+    height: 190px;
+    left: 60%;
+  }
+  .bb4 {
+    background: #001f72;
+    position: absolute;
+    width: 10px;
+    height: 170px;
+    left: 75%;
+  }
+  .bb5 {
+    background: #001f72;
+    position: absolute;
+    width: 10px;
+    height: 150px;
+    left: 91%;
+  }
+  .b2 {
+    background: #06060d;
+    width: 100px;
+    height: 190px;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+  }
+  .cc1 {
+    background: #001f72;
+    width: 50px;
+    height: 80px;
+    position: absolute;
+    left: 50%;
+    overflow: hidden;
+  }
+  .ccc1 {
+    background: #06060d;
+    width: 15px;
+    height: 10px;
+    position: absolute;
+    top: 15%;
+    left: -10%;
+    animation: fill 10s linear infinite;
+  }
+  .ccc2 {
+    background: #06060d;
+    width: 15px;
+    height: 10px;
+    position: absolute;
+    top: 45%;
+    left: -10%;
+  }
+  .ccc3 {
+    background: #06060d;
+    width: 15px;
+    height: 10px;
+    position: absolute;
+    top: 75%;
+    left: -10%;
+  }
+  .ccc4 {
+    background: #06060d;
+    width: 15px;
+    height: 10px;
+    position: absolute;
+    top: 75%;
+    left: 32%;
+  }
+  .ccc5 {
+    background: #06060d;
+    width: 15px;
+    height: 10px;
+    position: absolute;
+    top: 45%;
+    left: 32%;
+    animation: fill 10s linear infinite;
+  }
+  .ccc6 {
+    background: #06060d;
+    width: 15px;
+    height: 10px;
+    position: absolute;
+    top: 15%;
+    left: 32%;
+  }
+  .ccc7 {
+    background: #06060d;
+    width: 15px;
+    height: 10px;
+    position: absolute;
+    top: 15%;
+    left: 75%;
+  }
+  .ccc8 {
+    background: #06060d;
+    width: 15px;
+    height: 10px;
+    position: absolute;
+    top: 45%;
+    left: 75%;
+  }
+  .ccc9 {
+    background: #06060d;
+    width: 15px;
+    height: 10px;
+    position: absolute;
+    top: 75%;
+    left: 75%;
+    animation: fill 10s linear infinite;
+  }
+  .cc2 {
+    background: #06060d;
+    width: 55px;
+    height: 82px;
+    position: absolute;
+    left: 60%;
+    top: 45%;
+    overflow: hidden;
+  }
+  .cccc1 {
+    background: #001f72;
+    width: 55px;
+    height: 10px;  
+  }
+  .cccc2 {
+    background: #001f72;
+    width: 55px;
+    height: 10px; 
+    position: absolute;
+    top: 20%;
+  }
+  .cccc3 {
+    background: #001f72;
+    width: 55px;
+    height: 10px; 
+    position: absolute;
+    top: 40%;
+  }
+  .cccc4 {
+    background: #001f72;
+    width: 30px;
+    height: 10px; 
+    position: absolute;
+    top: 60%;
+  }
+  .cccc5 {
+    background: #001f72;
+    width: 30px;
+    height: 10px; 
+    position: absolute;
+    top: 80%;
+  }
+  .cc3 {
+    position: absolute;
+    background: #001f72;
+    width: 10px;
+    height: 10px;
+    top: 50%;
+    left: 40%;
+  }
+  .cc4 {
+    position: absolute;
+    background: #001f72;
+    width: 10px;
+    height: 10px;
+    top: 60%;
+    left: 40%;
+  }
+  .cc5 {
+    position: absolute;
+    background: #001f72;
+    width: 10px;
+    height: 10px;
+    top: 70%;
+    left: 40%;
+  }
+  .cc6 {
+    position: absolute;
+    background: #001f72;
+    width: 10px;
+    height: 10px;
+    top: 80%;
+    left: 40%;
+  }
+  .cc7 {
+    position: absolute;
+    background: #001f72;
+    width: 20px;
+    height: 10px;
+    top: 88%;
+    left: 60%;
+  }
+  .cc8 {
+    position: absolute;
+    background: #001f72;
+    width: 20px;
+    height: 10px;
+    top: 55%;
+    left: 10%;
+  }
+  .cc9 {
+    position: absolute;
+    background: #001f72;
+    width: 20px;
+    height: 10px;
+    top: 65%;
+    left: 10%;
+  }
+  .cc10 {
+    position: absolute;
+    background: #001f72;
+    width: 20px;
+    height: 10px;
+    top: 75%;
+    left: 10%;
+  }
+  .b3 {
+    position: absolute;
+    background: #06060d;
+    height: 300px;
+    width: 120px;
+    left: 52%;
+  }
+  .dd1 {
+    background: #001f72;
+    width: 80px;
+    height: 230px;
+  }
+  .ddd1 {
+    background: #06060d;
+    width: 10px;
+    height: 20px;
+    position: absolute;
+    top: 5%;
+    left: 10%;
+  }
+  .ddd2 {
+    background: #06060d;
+    width: 10px;
+    height: 20px;
+    position: absolute;
+    top: 5%;
+    left: 30%;
+  }
+  .ddd3 {
+    background: #06060d;
+    width: 10px;
+    height: 20px;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+  }
+  .ddd4 {
+    background: #06060d;
+    width: 10px;
+    height: 185px;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    animation: fill 10s linear infinite;
+  }
+  .ddd5 {
+    background: #06060d;
+    width: 10px;
+    height: 185px;
+    position: absolute;
+    top: 15%;
+    left: 30%;
+    animation: fill 10s linear infinite;
+  }
+  .ddd6 {
+    background: #06060d;
+    width: 10px;
+    height: 185px;
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    animation: fill 10s linear infinite;
+  }
+  .b4 {
+    background: #06060d;
+    width: 100px;
+    height: 200px;
+    position: absolute;
+    left: 73%;
+    top: 35%;
+  }
+  .ee1 {
+    position: absolute;
+    background: #001f72;
+    height: 100px;
+    width: 57px;
+    left: 4%;
+  }
+  .ee2 {
+    background: #25ccd2;
+    position: absolute;
+    width: 40px;
+    height: 150px;
+    left: 20%;
+    top: 5%;
+  }
+  .ee3 {
+    position: absolute;
+    background: #06060d;
+    width: 57px;
+    height: 10px;
+    left: 4%;
+    top: 10%;
+  }
+  .eee1 {
+    position: absolute;
+    background: #06060d;
+    width: 10px;
+    height: 8px;
+    bottom: 220%;
+  }
+  .eee2 {
+    position: absolute;
+    background: #06060d;
+    width: 10px;
+    height: 8px;
+    bottom: 220%;
+    left: 28%;
+  }
+  .eee3 {
+    position: absolute;
+    background: #06060d;
+    width: 10px;
+    height: 8px;
+    bottom: 220%;
+    left: 58%;
+  }
+  .eee4 {
+    position: absolute;
+    background: #06060d;
+    width: 10px;
+    height: 8px;
+    bottom: 220%;
+    left: 88%;
+  }
+  .ee4 {
+    position: absolute;
+    background: #06060d;
+    width: 57px;
+    height: 10px;
+    left: 4%;
+    top: 20%;
+  }
+  .ee5 {
+    position: absolute;
+    background: #06060d;
+    width: 57px;
+    height: 10px;
+    left: 4%;
+    top: 30%;
+  }
+  .ee6 {
+    position: absolute;
+    background: #06060d;
+    width: 57px;
+    height: 10px;
+    left: 4%;
+    top: 40%;
+  }
+  .ee7 {
+    position: absolute;
+    background: #06060d;
+    width: 57px;
+    height: 10px;
+    left: 4%;
+    top: 50%;
+  }
+  .ee8 {
+    position: absolute;
+    background: #06060d;
+    width: 57px;
+    height: 10px;
+    left: 4%;
+    top: 60%;
+  }
+  .ee9 {
+    position: absolute;
+    background: #06060d;
+    width: 57px;
+    height: 10px;
+    left: 4%;
+    top: 70%;
+  }
+  .b5 {
+    position: absolute;
+    background: #06060d;
+    width: 60px;
+    height: 20px;
+    left: 76%;
+    top: 28.8%;
+  }
+  .b6 {
+    position: absolute;
+    background: #06060d;
+    width: 30px;
+    height: 20px;
+    left: 78.6%;
+    top: 22%;
+  }
+  .b7 {
+    position: absolute;
+    background: #001f72;
+    height: 60px;
+    width: 50px;
+    bottom: 2%;
+    right: 27%;
+    overflow: hidden;
+  }
+  .ff1 {
+    position: absolute;
+    background: #06060d;
+    height: 15px;
+    width: 30px;
+    top: 20%;
+    left: 20%;
+  }
+  .ff2 {
+    position: absolute;
+    background: #06060d;
+    height: 15px;
+    width: 30px;
+    top: 60%;
+    left: 20%;
+  }
+  .b8 {
+    position: absolute;
+    background: #25ccd2;
+    width: 50px;
+    height: 15px;
+    bottom: 15%;
+    right: 38%; 
+  }
+  .b9 {
+    position: absolute;
+    background: #25ccd2;
+    width: 50px;
+    height: 15px;
+    bottom: 8%;
+    right: 38%; 
+  }
+  .b10 {
+    position: absolute;
+    background: #25ccd2;
+    width: 50px;
+    height: 15px;
+    bottom: 1%;
+    right: 38%; 
+  }
+  @keyframes fill {
+    0% {
+      background: #06060d;
+    }
+    33% {
+      background: #8338ec;
+    }
+    50% {
+      background: #ff006e;
+    }
+    66% {
+      background: #fb5607;
+    }
+    100% {
+      background: #06060d;
+    }
+  }
